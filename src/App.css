@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul img {
+  margin: auto 54% auto 5%;
+  width: 9%;
+  height: 4%;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 1% 8% 0% 7%;
+  width: 85%;
+  padding-bottom: 1%;
+  color: white;
+  box-shadow: 0 6px 10px -6px rgba(0,0,0,0.25);
+}
+
+nav ul li {
+  margin: auto 2% auto 0%;
+}
+
+nav ul li a {
+  color: #1A3C7E;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.current {
+  border-bottom: 3px solid #1A3C7E;
+  padding: 0 0 9% 0;
+}
+
+.anasayfa {
+  padding: 9% 7% 17% 15%;
+  width: 90%;
+  height: 70%;
+}
+
+.anasayfa div {
+  width: 45%;
+  height: 7%;
+  margin: 7% 10% 3% 0px;
+  float: left;
+  font-size: 28px;
+  font-family: Roboto;
+}
+
+.anasayfa p {
+  width: 45%;
+  height: 15%;
+  margin: 0px 10% 0px 0px;
+  float: left;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.anasayfa img {
+  width: 45%;
+  height: 70%;
+  box-align: right;
+}
+
+.anasayfa .button {
+  width: 170px;
+  height: 40px;
+  margin: 4% 30% 0px 0px;
+  background-color: rgba(26, 60, 126, 1);
+  font-size: 15px;
+  text-align: center;
+  font-family: Roboto;
+  color: white;
+}
