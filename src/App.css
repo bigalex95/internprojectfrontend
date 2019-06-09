@@ -46,13 +46,13 @@ nav ul li a {
   padding: 0 0 9% 0;
 }
 
-.anasayfa {
+.mainpage {
   padding: 9% 7% 17% 15%;
   width: 90%;
   height: 70%;
 }
 
-.anasayfa div {
+.mainpage div {
   width: 45%;
   height: 7%;
   margin: 7% 10% 3% 0px;
@@ -61,7 +61,7 @@ nav ul li a {
   font-family: Roboto;
 }
 
-.anasayfa p {
+.mainpage p {
   width: 45%;
   height: 15%;
   margin: 0px 10% 0px 0px;
@@ -70,13 +70,13 @@ nav ul li a {
   font-family: Roboto;
 }
 
-.anasayfa img {
+.mainpage img {
   width: 45%;
   height: 70%;
   box-align: right;
 }
 
-.anasayfa .button {
+.mainpage .button {
   width: 170px;
   height: 40px;
   margin: 4% 30% 0px 0px;
@@ -86,13 +86,13 @@ nav ul li a {
   color: white;
 }
 
-.universiteler {
+.universities {
   padding: 5% 7% 17% 15%;
   width: 100%;
   height: 100%;
 }
 
-.ogrenciler {
+.students {
   padding: 5% 7% 17% 15%;
   width: 100%;
   height: 100%;

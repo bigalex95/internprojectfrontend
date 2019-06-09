@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'react-grid-system';
 
-export default class UniversiteList extends React.Component {
+export default class UniversityList extends React.Component {
   state = {
     isLoading: true,
     universities: [],
@@ -29,8 +29,8 @@ export default class UniversiteList extends React.Component {
       <React.Fragment>
         {error ? <p>{error.message}</p> : null}
         {!isLoading ? (
-          universities.map(universite => {
-            const { id, name, web_page } = universite;
+          universities.map(university => {
+            const { id, name, web_page } = university;
             return (
               <div key={id}>
       			    <Container className='table'>

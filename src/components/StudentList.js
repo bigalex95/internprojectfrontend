@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'react-grid-system';
 
-export default class UniversiteList extends React.Component {
+export default class StudentList extends React.Component {
   state = {
     isLoading: true,
     students: [],
